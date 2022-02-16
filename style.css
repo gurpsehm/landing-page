@@ -1,0 +1,33 @@
+body {
+  font-family: "sans-serif";
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+}
