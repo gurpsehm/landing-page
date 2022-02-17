@@ -18,8 +18,12 @@ a {
   font-size: 18px;
 }
 
+h2 {
+  padding-bottom: 23px;
+}
+
 .header {
-  margin-top: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +40,7 @@ a {
 
 #section-one {
   padding-top: 60px;
+  padding-bottom: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,4 +63,36 @@ a {
 
 #section-one button {
   padding: 5px 25px 5px 25px;
+}
+
+#section-two {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#section-two img {
+  width: 270px;
+  height: auto;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: green;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 285px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
