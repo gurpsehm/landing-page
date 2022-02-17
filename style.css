@@ -1,5 +1,9 @@
 body {
   font-family: "sans-serif";
+  margin-left: 65px;
+  margin-right: 65px;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
@@ -15,12 +19,10 @@ a {
 }
 
 .header {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .header-links {
@@ -30,4 +32,30 @@ a {
 .header img {
   width: 150px;
   height: auto;
+}
+
+#section-one {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.sec-one-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#section-one img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+}
+
+#section-one button {
+  padding: 5px 25px 5px 25px;
 }
