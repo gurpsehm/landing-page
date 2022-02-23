@@ -1,7 +1,6 @@
 body {
   font-family: "sans-serif";
-  padding-left: 65px;
-  padding-right: 65px;
+  margin: 0px 0px 0px 0px;
   display: flex;
   flex-direction: column;
 }
@@ -14,8 +13,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #7290C3;
   font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -32,7 +35,10 @@ h3 {
 }
 
 .header {
+  background-color: #020335;
   padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,9 +54,14 @@ h3 {
 }
 
 #section-one {
+  color: #7290C3;
+  background-color: #020335;
   padding-top: 60px;
   padding-bottom: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   flex: 1;
@@ -68,16 +79,25 @@ h3 {
   height: auto;
   padding-right: 2px;
   border-radius: 10px;
+  border: solid;
+  border-color: #FFFFFF;
   display: flex;
 }
 
 #section-one button {
+  color: #020335;
+  background-color: #7290C3;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #7290C3;
   padding: 5px 25px 5px 25px;
 }
 
 #section-two {
   margin-top: 40px;
   padding-bottom: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -109,7 +129,8 @@ h3 {
 }
 
 #section-three {
-  padding: 100px 100px 100px 100px;
+  background-color: #E5E7EB;
+  padding: 100px 130px 130px 130px;
   display: flex;
   flex-direction: column;
 }
@@ -128,7 +149,8 @@ h3 {
 }
 
 #section-four {
-  padding: 40px 0px 40px 0px;
+  margin-top: 50px;
+  padding: 40px 100px 130px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,9 +178,19 @@ h3 {
   background: transparent;
   border-radius: 5px;
   border-style: solid;
-
   flex-shrink: 0;
   justify-content: flex-end;
   align-self: center;
   padding: 5px 25px 5px 25px;
+}
+
+.footer {
+  color: #7290C3;
+  background-color: #020335;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
